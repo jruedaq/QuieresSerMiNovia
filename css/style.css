@@ -1,0 +1,13 @@
+body, html {
+    height: 100%;
+    display: grid;
+}
+
+.content {
+    display: grid;
+    margin: auto;
+}
+
+.buttons {
+    margin: auto;
+}
