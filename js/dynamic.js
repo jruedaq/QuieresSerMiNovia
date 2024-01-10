@@ -3,7 +3,7 @@ function invert(hoverBtn) {
     let btn1 = document.getElementById("btn-1")
     let btn2 = document.getElementById("btn-2")
 
-    question.innerHTML = "¿Quieres ser mi novia? 😍"
+    question.innerHTML = "¿Me perdonas? 😍"
     if (hoverBtn.innerHTML === "No" && btn1.id === hoverBtn.id) {
         btn1.classList.add("btn-success")
         btn1.classList.remove("btn-danger")
@@ -25,5 +25,5 @@ function invert(hoverBtn) {
 
 function returnTitle() {
     let question = document.getElementById("question")
-    question.innerHTML = "¿Quieres ser mi novia? 😁"
+    question.innerHTML = "¿Me perdonas? 😔"
 }
