@@ -11,3 +11,8 @@ body, html {
 .buttons {
     margin: auto;
 }
+
+.links {
+    text-align: center;
+    margin: 20px auto auto;
+}
